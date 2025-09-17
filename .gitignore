@@ -83,3 +83,16 @@ build/
 
 # ---- IntelliJ project files ----
 *.iml
+# ---- Java compiled files ----
+*.class
+
+# ---- Java build folders ----
+out/
+target/
+build/
+
+# ---- JARs ----
+*.jar
+
+# ---- IntelliJ project files ----
+*.iml
