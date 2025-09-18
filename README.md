@@ -3,3 +3,7 @@
 This repo contains my practice codes, contest solutions, and algorithm templates.
 Languages used: C, C++, Java.
 
+## Changelog
+
+2025-09-18 — Added Bubble Sort (C) — c/practice/bubble_sort.c
+
