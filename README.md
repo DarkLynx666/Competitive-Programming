@@ -8,3 +8,5 @@ Languages used: C, C++, Java.
 2025-09-18 — Added Bubble Sort (C) — c/practice/bubble_sort.c
 
 2025-09-18 | Added Radix Sort (C) — c/practice/radix_sort.c       
+
+2025-09-20 | Added Circular Queue (C) — c/practice/CorrectCircularQW.c 
