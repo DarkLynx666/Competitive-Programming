@@ -8,7 +8,6 @@ int main(){
     q = 7 - (x+y);
     }
 
-
     printf("%d",q);
 
     return 0;
