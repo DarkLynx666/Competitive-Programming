@@ -19,7 +19,7 @@ head = shaan;
 shaan->data = 21;
 shaan->next = NULL;
 
-
+//insertion and stuff
 struct node *jarif = (struct node*)malloc(sizeof(struct node));
  
 jarif->data = 420;
@@ -53,6 +53,48 @@ while(temp != NULL){
 
 }
 
+
+// deletion
+
+//lets delete shaan (deletion from a specific position)
+
+// shaan->next = NULL;
+
+// jarif->next = atik;
+// free(shaan);
+
+// lets delete jarif (deletion from beginning)
+
+// head = jarif->next;
+// jarif->next = NULL;
+
+// lets delete labib (deletion from the end)
+
+// atik->next =NULL;
+
+
+struct node *temp2;
+temp2 = head;
+
+// print traversal
+while(temp2 != NULL){
+
+    printf("New linked list: %d\n",temp2->data);
+    temp2 = temp2->next;
+
+}
+
+// lets search 21
+
+struct node *search;
+search = head;
+
+while(search->data != 21){
+    printf("\nnot found\n");
+    search = search->next;
+}
+
+printf("found %d",search->data);
 
 return 0;
 }
