@@ -1,0 +1,61 @@
+#How to reverse a number? (Without using string, array)
+123 to 321?
+Ans:
+
+Step-1: multiply by 10
+Step-2: add the next number in queue
+
+Ex:
+
+1. Way - 1: (This method has a problem that it wont count 0 even for once if it is in the beginning)(input 0, expected output 0 but resultant output will be blank since we will use a while loop which will have the condition like "x>0". But wont count 0 if it's at the end like 300 output will be 3).
+
+123
+
+int main(){
+
+int n = 123;
+
+int sum=0;
+
+int x = n%10;
+
+sum = sum*10 + n;
+n = n/10;
+
+}
+
+
+2. Way - 2: (This method has a problem that it will count 0 every time even at the end. Like input 300 ,output will be 003 which aint correct).
+
+123
+
+int main(){
+
+int n = 123;
+
+int x = n%10;
+
+print("%d",x);
+
+}
+
+
+3. Way-3: Do-While method
+
+do{
+
+int n = 123;
+
+int sum=0;
+
+int x = n%10;
+
+sum = sum*10 + n;
+n = n/10;
+
+printf("%d",sum);
+}
+
+while(x>0);
+
+Doing it this way will count 0 if it's the only input. Input 0 , output 0.
